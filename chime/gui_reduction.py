@@ -8,6 +8,9 @@ import pandas as pd
 import glob
 import argparse
 
+
+import filtering_flux_data 
+
 # CHIME package imports
 try:
     from . import calibration
