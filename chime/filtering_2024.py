@@ -104,8 +104,6 @@ if __name__ == "__main__":
         
     #Filtering process:
 
-    
-
     good_dat = [] #list with the string values for the good data
     bad_dat = [] #list full of bad data strings that has NaN 
     
@@ -144,7 +142,6 @@ if __name__ == "__main__":
     dates = sorted(good_date + bad_date)
 
     #Data sorting, filtering out days that exist from the year 2024: 
-    
     
     known_jan_points = list(range(101, 132))
     known_feb_points = list(range(201, 230))
@@ -216,6 +213,3 @@ if __name__ == "__main__":
     full_list_sort["Date"] == str
 
     full_list_sort.to_csv("filtering_dat_2024_NEW.csv", index=False)
-
-
-

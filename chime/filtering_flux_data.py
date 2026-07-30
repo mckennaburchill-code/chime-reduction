@@ -105,8 +105,6 @@ if __name__ == "__main__":
         
     #Filtering process:
 
-    
-
     good_dat = [] #list with the string values for the good data
     bad_dat = [] #list full of bad data strings that has NaN 
     
