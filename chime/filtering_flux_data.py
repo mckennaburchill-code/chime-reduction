@@ -207,7 +207,7 @@ if __name__ == "__main__":
     bad_flux_data = {
         "Date": bad_datetimes_total,
         "Flux": est_flux,
-        "Source": "Interpoliated"
+        "Source": "Interpolated"
     }
 
     good = pd.DataFrame(good_flux_data)

@@ -121,11 +121,11 @@ if __name__ == "__main__":
                 
     #days in the year of 2024 that do not exist(the files do not exist from Learmonth)
 
-    nonexistant_days = [datetime.strptime("L250223.SRD", "L%y%m%d.SRD"), 
-                        datetime.strptime("L250224.SRD", "L%y%m%d.SRD"),
-                        datetime.strptime("L250226.SRD", "L%y%m%d.SRD"),
-                        datetime.strptime("L250227.SRD", "L%y%m%d.SRD"),
-                        datetime.strptime("L250616.SRD", "L%y%m%d.SRD"),
+    nonexistant_days = [datetime.strptime("L240223.SRD", "L%y%m%d.SRD"), 
+                        datetime.strptime("L240224.SRD", "L%y%m%d.SRD"),
+                        datetime.strptime("L240226.SRD", "L%y%m%d.SRD"),
+                        datetime.strptime("L240227.SRD", "L%y%m%d.SRD"),
+                        datetime.strptime("L240616.SRD", "L%y%m%d.SRD"),
                         ]
     nonexistant_days.sort()
     
@@ -203,7 +203,7 @@ if __name__ == "__main__":
     bad_flux_data = {
         "Date": bad_datetimes_total,
         "Flux": est_flux,
-        "Source": "Interpoliated"
+        "Source": "Interpolated"
     }
 
     good = pd.DataFrame(good_flux_data)
@@ -215,7 +215,7 @@ if __name__ == "__main__":
 
     full_list_sort["Date"] == str
 
-    full_list_sort.to_csv("filtering_dat_2024_new.csv", index=False)
+    full_list_sort.to_csv("filtering_dat_2024_NEW.csv", index=False)
 
 
 
